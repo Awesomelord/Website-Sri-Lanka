@@ -1,0 +1,33 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(255,255,255,1.00);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Dancing Script', cursive;
+}
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+  font-size: 30px;
+  color:rgb(217, 217, 217);
+}
+
+.navbar a:hover {
+  background-color: rgba(255,255,255,1.00) ;
+  color: rgba(245,171,88,1.00);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
